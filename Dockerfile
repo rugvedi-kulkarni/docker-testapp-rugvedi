@@ -7,4 +7,6 @@ RUN mkdir -p docker-testapp-rugvedi
 
 COPY . /docker-testapp-rugvedi
 
-CMD ("node", "/docker-testapp-rugvedi/server.js")
+# RUN npm install
+
+CMD ["node", "/docker-testapp-rugvedi/server.js"]
