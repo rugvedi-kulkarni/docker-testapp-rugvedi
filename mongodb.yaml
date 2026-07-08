@@ -1,4 +1,4 @@
-servces:
+services:
   mongo:
     image: mongo
 
