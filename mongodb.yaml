@@ -9,6 +9,9 @@ services:
       MONGO_INITDB_ROOT_USERNAME: admin
       MONGO_INITDB_ROOT_PASSWORD: qwerty
 
+    volumes:
+    - C:\C programs\docker-testapp-rugvedi\data:/data/db
+
   mongo-express:
     image: mongo-express
 
